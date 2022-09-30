@@ -2,8 +2,11 @@ package src;
 
 public class yearLeap {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println ("Enter the Year");
+        
 
-        int year = 2020;
+        int year =sc.nextInt();
 
         if (year % 40 == 0)
             System.out.println (year + " is a Leap Year");
